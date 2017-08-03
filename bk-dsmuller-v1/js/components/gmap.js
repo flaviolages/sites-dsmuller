@@ -30,7 +30,7 @@ window.initMap = function() {
 
   var customMapTypeId = 'custom_style';
 
-  var brooklyn = {lat: 41.850, lng: -73.961};
+  var brooklyn = {lat: -29.922214, lng: -50.9780985};
   var map = new google.maps.Map(document.getElementById('map'), {
     zoom: 6,
     scrollwheel: false,
@@ -45,9 +45,9 @@ window.initMap = function() {
   var contentString = '<div id="content">'+
     '<div id="siteNotice">'+
     '</div>'+
-    '<h1 id="firstHeading" class="firstHeading">Brooklyn</h1>'+
+    '<h1 id="firstHeading" class="firstHeading">DS Müller</h1>'+
     '<div id="bodyContent">'+
-    '<p>277 Bedford Avenue, <br> Brooklyn, NY 11211, <br> New York, USA</p>'+
+    '<p>, <br> gravatai, Rio grande do sul <br> brasil</p>'+
     '</div>'+
     '</div>';
 

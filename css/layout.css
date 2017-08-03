@@ -5,6 +5,11 @@
 /* eg: @include translate3d(0,0,0); */
 /* eg: @include border-radius(3px); */
 
+.mgnv {
+  margin: 5px;
+}
+
+
 .nv {
   background: #fff;
   float: left;
@@ -13,14 +18,28 @@
 }
 
 .mg1 {
-  margin-left: 30px;
+  margin-left: 20px;
+
+}
+.mi1 {
+  margin-left: 50px;
+  margin-top: 20px;
 }
 
 .mg2 {
   margin-left: 75px;
 }
+.mi2 {
+  margin-left: 60px;
+  margin-top: 20px;
+}
+
 .mg3 {
   margin-left: 40px;
+}
+.mi3 {
+  margin-left: 60px;
+  margin-top: 20px;
 }
 
 
@@ -611,11 +630,11 @@ fieldset[disabled] .btn-theme {
 
 /* Navbar Logo */
 .header .logo {
-  width: 200px;
+  width: 300px;
   height: 200px;
   float: left;
-  max-height: 95px;
-  line-height: 85px;
+  max-height: 100px;
+  line-height: 95px;
 }
 
 .header .logo-wrap {
@@ -687,7 +706,7 @@ fieldset[disabled] .btn-theme {
   font-size: 13px;
   font-weight: 600;
   font-family: Hind, sans-serif;
-  color: #696E74;
+  color: #6B7076;
   text-transform: uppercase;
   line-height: 55px;
   padding: 20px;
@@ -696,23 +715,12 @@ fieldset[disabled] .btn-theme {
   transition-timing-function: cubic-bezier(0.7, 1, 0.7, 1);
 }
 
-.header .nav-item-hover {
-  position: relative;
+.header .nav-item-child:hover{
+  color: #0383CE;
 }
 
-.header .nav-item-hover:after {
-  position: absolute;
-  top: 45px;
-  left: 0;
-  width: 9px;
-  height: 2px;
-  background: #17bed2;
-  opacity: 0;
-  content: " ";
-  transition-duration: 400ms;
-  transition-property: all;
-  transition-timing-function: cubic-bezier(0.7, 1, 0.7, 1);
-}
+
+
 
 /* Media Queries below 991px */
 @media (max-width: 991px) {
@@ -804,7 +812,7 @@ fieldset[disabled] .btn-theme {
 @media (min-width: 992px) {
   .page-on-scroll .header .navbar {
     background: #fff;
-    border-bottom-color: #f0f0f0;
+    border-bottom-color: #a9aaaa;
     transition-duration: 300ms;
     transition-property: all;
     transition-timing-function: cubic-bezier(0.7, 1, 0.7, 1);
@@ -827,6 +835,10 @@ fieldset[disabled] .btn-theme {
     transition-property: all;
     transition-timing-function: cubic-bezier(0.7, 1, 0.7, 1);
   }
+  .page-on-scroll .header .nav-item-child:hover {
+    color: #0182CD;
+  }
+
 }
 
 /*------------------------------------------------------------------
@@ -983,11 +995,15 @@ fieldset[disabled] .btn-theme {
 }
 
 .carousel-title {
-  font-size: 80px;
+  font-size: 50px;
   font-weight: 700;
   color: #fff;
   line-height: 1.1;
   text-transform: uppercase;
+}
+
+.carousel-p{
+  color: #fff;
 }
 
 @media (max-width: 768px) {
