@@ -49,12 +49,12 @@ $envio = mail($x, $iassunto, $imsg, $headers);
 if($envio)
  echo "<font color=#406980 size=4 face=verdana>
 
- <br><br><img src=http://www.marviincorporadora.com.br/wp-content/uploads/2016/05/icone.png width=100 align=left hspace=20 vspace=30><br>
- Agradecemos por entrar em contato com a Sol PErsianas<br><br>
+ <br><br><img src=https://logo.fretebras.com.br/507387972/transporte-gravatai-rs-ds-muller-transportes-e-logistica_g.jpg width=100 align=left hspace=20 vspace=30><br>
+ Agradecemos por entrar em contato com a DS Muller<br><br>
 
 Sua mensagem foi enviada com sucesso, em breve entraremos em contato</font>";
 else
- echo "A mensagem n�o pode ser enviada";
+ echo "A mensagem não pode ser enviada";
 
 
 
