@@ -3,22 +3,19 @@ ini_set("error_reporting", E_ALL);
 // O remetente deve ser um e-mail do seu dom�nio conforme determina a RFC 822.
 // O return-path deve ser ser o mesmo e-mail do remetente.
 
-$inome = $_POST["nome"];
-$itelefone= $_POST["telefone"];
-$iemail = $_POST["email"];
-
-$imensagem = $_POST["mensagem"];
-
-
-$iassunto="Contato pelo Site";
+$nome = $_POST["nome"];
+$telefone= $_POST["telefone"];
+$email = $_POST["email"];
+$mensagem = $_POST["mensagem"];
+$assunto="Contato pelo Site";
 
 
-$imsg = "
+$msg = "
 <font color=#6c8827 size=4 face=verdana><b>::: Mensagem enviada do site - Contato :::  </b></font><br><br>
-<font color=#6c8827 size=4 face=verdana><b>Nome: </b></font><font size=3> <font color=#333333 size=4 face=verdana>$inome</font><br>
-<font color=#6c8827 size=4 face=verdana><b>Email: </b></font> <font color=#333333 size=4 face=verdana>$iemail</font><br>
-<font color=#6c8827 size=4 face=verdana><b>Telefone:</b></font> <font color=#333333 size=4 face=verdana>$itelefone</font></font><br>
-<font color=#6c8827 size=4 face=verdana><b>Mensagem:</b></font> <font color=#333333 size=4 face=verdana>$imensagem</font><br>
+<font color=#6c8827 size=4 face=verdana><b>Nome: </b></font><font size=3> <font color=#333333 size=4 face=verdana>$nome</font><br>
+<font color=#6c8827 size=4 face=verdana><b>Email: </b></font> <font color=#333333 size=4 face=verdana>$email</font><br>
+<font color=#6c8827 size=4 face=verdana><b>Telefone:</b></font> <font color=#333333 size=4 face=verdana>$telefone</font></font><br>
+<font color=#6c8827 size=4 face=verdana><b>Mensagem:</b></font> <font color=#333333 size=4 face=verdana>$mensagem</font><br>
 
 
 <br><br>";
@@ -42,7 +39,7 @@ $headers .= "Reply-To: cloudflaviolages@gmail.com\r\n"; // return-path
 
 
 
-$envio = mail($x, $iassunto, $imsg, $headers);
+$envio = mail($x, $assunto, $msg, $headers);
 
 
 
