@@ -20,6 +20,9 @@
         <!-- THEME STYLES -->
         <link href="css/layout.css" rel="stylesheet" type="text/css"/>
 
+        <link href="css/formulario.css" rel="stylesheet" type="text/css"/>
+
+
         <!-- Favicon -->
         <link rel="shortcut icon" href="favicon.ico"/>
 
@@ -82,23 +85,9 @@
         <!--========== END HEADER ==========-->
 
         <!--========== SLIDER ==========-->
-        <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+        <div class="pedido">
 
-            <!-- Wrapper for slides -->
-            <div class="carousel-inner" role="listbox">
-                <div class="item active">
-                    <img class="img-responsive" src="img/1920x1080/01.jpg" alt="Slider Image">
-                    <div class="container">
-                        <div class="carousel-centered">
-                            <div class="margin-b-40">
-                                <h1 class="carousel-title">Contato</h1>
 
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-            </div>
         </div>
         <!--========== SLIDER ==========-->
 
@@ -107,44 +96,71 @@
         <div class="section-seperator">
             <div class="content-lg container">
                 <div class="row">
-                    <!-- Contact List -->
-                    <div class="col-sm-4 sm-margin-b-50">
-                        <div class="wow fadeInLeft" data-wow-duration=".3" data-wow-delay=".3s">
-                            <h3><a href="#">Comercial</a></h3>
-                            <p>Lorem ipsum dolor sit amet consectetur adipiscing elit sed tempor incdidunt ut laboret dolor magna ut consequat siad esqudiat dolor</p>
-                            <ul class="list-unstyled contact-list">
-                                <li><i class="margin-r-10 color-base icon-call-out"></i>51 3331-3323 </li>
-                                <li><i class="margin-r-10 color-base icon-envelope"></i> comercial@dsmuller.com.br</li>
-                            </ul>
-                        </div>
-                    </div>
-                    <!-- End Contact List -->
 
+                  <span class="pedido-h1">Pedido de coleta</span>
                     <!-- Contact List -->
-                    <div class="col-sm-4 sm-margin-b-50">
-                        <div class="wow fadeInLeft" data-wow-duration=".3" data-wow-delay=".3s">
-                            <h3><a href="#">Logistica</a></h3>
-                            <p>Lorem ipsum dolor sit amet consectetur adipiscing elit sed tempor incdidunt ut laboret dolor magna ut consequat siad esqudiat dolor</p>
-                            <ul class="list-unstyled contact-list">
-                                <li><i class="margin-r-10 color-base icon-call-out"></i> 51 333-3333</li>
-                                <li><i class="margin-r-10 color-base icon-envelope"></i> jessica@dsmuller.com.br</li>
-                            </ul>
-                        </div>
-                    </div>
-                    <!-- End Contact List -->
+                    <div class="col-sm-12 spc">
 
-                    <!-- Contact List -->
-                    <div class="col-sm-4 sm-margin-b-50">
-                        <div class="wow fadeInLeft" data-wow-duration=".3" data-wow-delay=".3s">
-                            <h3><a href="#">Financeiro</a></h3>
-                            <p>Lorem ipsum dolor sit amet consectetur adipiscing elit sed tempor incdidunt ut laboret dolor magna ut consequat siad esqudiat dolor</p>
-                            <ul class="list-unstyled contact-list">
-                                <li><i class="margin-r-10 color-base icon-call-out"></i> 51 3332 2222</li>
-                                <li><i class="margin-r-10 color-base icon-envelope"></i> financeiro@dsmuller.com.br</li>
-                            </ul>
+                      <div class="form-group">
+                        <span class="pedido-h2">Origem</span>
+                        <div class="col-xs-12 col-sm-6">
+                        <input type="text" name="form-first-name" placeholder="CNPJ" class="brd form-first-name form-control" id="form-first-name">
                         </div>
+                        <div class="col-xs-12 col-sm-6 lg3">
+                        <input type="text" name="form-first-name" placeholder="Razão Social" class="brd  form-first-name form-control" id="form-first-name">
+                        </div>
+
+                      </div>
+
+                      <div class="form-group">
+                        <span class="pedido-h2">Destinatário</span>
+                        <div class="col-xs-12 col-sm-6 lg3">
+                        <input type="text" name="form-first-name" placeholder="CNPJ" class="brd  form-first-name form-control" id="form-first-name">
+                        </div>
+                        <div class="col-xs-12 col-sm-6 lg3">
+                        <input type="text" name="form-first-name" placeholder="Razão Social" class=" brd form-first-name form-control" id="form-first-name">
+                        </div>
+                      </div>
+
+                      <div class="form-group">
+                        <span class="pedido-h2">Dados</span>
+                        <div class="col-xs-4 col-sm-4 lg3">
+                        <input type="number" name="form-first-name" placeholder="Volume" class="brd  form-first-name form-control" id="form-first-name">
+                        </div>
+                        <div class="col-xs-4 col-sm-4 lg3">
+                        <input type="text" name="form-first-name" placeholder="Peso" class=" brd form-first-name form-control" id="form-first-name">
+                        </div>
+                        <div class="col-xs-4 col-sm-4 lg3">
+                        <input type="number" name="form-first-name" placeholder="Valor da Nota" class=" brd form-first-name form-control" id="form-first-name">
+                        </div>
+                      </div>
+                      <div class="form-group">
+                        <span class="pedido-h2">Dimensões</span>
+                        <div class="col-xs-4 col-sm-4 lg3">
+                        <input type="number" name="form-first-name" placeholder="Altura" class="brd  form-first-name form-control" id="form-first-name">
+                        </div>
+                        <div class="col-xs-4 col-sm-4 lg3">
+                        <input type="number" name="form-first-name" placeholder="Largura" class=" brd form-first-name form-control" id="form-first-name">
+                        </div>
+                        <div class="col-xs-4 col-sm-4 lg3">
+                        <input type="number" name="form-first-name" placeholder="Comprimento" class=" brd form-first-name form-control" id="form-first-name">
+                        </div>
+                      </div>
+                      <div class="form-group">
+                        <span class="pedido-h2">Contato</span>
+                        <div class="col-xs-12 col-sm-6 lg3">
+                        <input type="text" name="form-first-name" placeholder="Nome" class="brd  form-first-name form-control" id="form-first-name">
+                        </div>
+                        <div class="col-xs-12 col-sm-6 lg3">
+                        <input type="text" name="form-first-name" placeholder="Telefone" class=" brd form-first-name form-control" id="form-first-name">
+                        </div>
+                      </div>
+                      <button type="submit" class="bt btn-theme btn-theme-sm btn-base-bg text-uppercase">Pedir Coleta</button>
+
+
+
+
                     </div>
-                    <!-- End Contact List -->
                 </div>
                 <!--// end row -->
             </div>
@@ -154,11 +170,6 @@
 
 
 
-
-
-
-        <!-- Google Map -->
-        <div id="map" class="map height-400"></div>
 
 
 

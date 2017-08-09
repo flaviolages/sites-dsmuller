@@ -67,7 +67,7 @@
                                 <li class="nav-item"><a class="nav-item-child" href="contato.php"><i class="fa fa-envelope-o mgnv"></i> Contato</a></li>
                                 <li class="nav-item"><a class="nav-item-child" href="cel:51999130011"><i class="fa fa-phone mgnv"></i> (51)9 9913-0011</a></li>
                                 <li class="nav-item"><a class="nav-item-child" href="cel:51999912797"><i class="fa fa-phone mgnv"></i> (51)9 9991-2797</a></li>
-                            </ul>
+                              </ul>
                         </div>
                     </div>
                     <!-- End Navbar Collapse -->
@@ -91,7 +91,7 @@
                     <div class="container">
                         <div class="carousel-centered">
                             <div class="margin-b-40">
-                                <h1 class="carousel-title">Contato</h1>
+                                <h1 class="carousel-title">Serviços</h1>
 
                             </div>
                         </div>
@@ -103,62 +103,102 @@
         <!--========== SLIDER ==========-->
 
 
-        <!-- Contact List -->
-        <div class="section-seperator">
+        <!-- Service -->
+        <div class="bg-color-sky-light" data-auto-height="true">
             <div class="content-lg container">
-                <div class="row">
-                    <!-- Contact List -->
-                    <div class="col-sm-4 sm-margin-b-50">
-                        <div class="wow fadeInLeft" data-wow-duration=".3" data-wow-delay=".3s">
-                            <h3><a href="#">Comercial</a></h3>
-                            <p>Lorem ipsum dolor sit amet consectetur adipiscing elit sed tempor incdidunt ut laboret dolor magna ut consequat siad esqudiat dolor</p>
-                            <ul class="list-unstyled contact-list">
-                                <li><i class="margin-r-10 color-base icon-call-out"></i>51 3331-3323 </li>
-                                <li><i class="margin-r-10 color-base icon-envelope"></i> comercial@dsmuller.com.br</li>
-                            </ul>
+                <div class="row row-space-1 margin-b-2">
+                    <div class="col-sm-6 sm-margin-b-2">
+                        <div class="wow fadeInLeft" data-wow-duration=".3" data-wow-delay=".2s">
+                            <div class="service" data-height="height">
+                                <h3>Rodoviário</h3>
+                                <p class="margin-b-5">Rodoviário: Transporte de carga expressa, Carga fracionada ou Carga fechada</p>
+                                <a href="contato.php" class="content-wrapper-link"></a>
+                            </div>
                         </div>
                     </div>
-                    <!-- End Contact List -->
-
-                    <!-- Contact List -->
-                    <div class="col-sm-4 sm-margin-b-50">
-                        <div class="wow fadeInLeft" data-wow-duration=".3" data-wow-delay=".3s">
-                            <h3><a href="#">Logistica</a></h3>
-                            <p>Lorem ipsum dolor sit amet consectetur adipiscing elit sed tempor incdidunt ut laboret dolor magna ut consequat siad esqudiat dolor</p>
-                            <ul class="list-unstyled contact-list">
-                                <li><i class="margin-r-10 color-base icon-call-out"></i> 51 333-3333</li>
-                                <li><i class="margin-r-10 color-base icon-envelope"></i> jessica@dsmuller.com.br</li>
-                            </ul>
+                    <div class="col-sm-6">
+                        <div class="wow fadeInLeft" data-wow-duration=".3" data-wow-delay=".1s">
+                            <div class="service" data-height="height">
+                                <h3>Cross-Docking</h3>
+                                <p class="margin-b-5"></p>
+                                <a href="contato.php" class="content-wrapper-link"></a>
+                            </div>
                         </div>
                     </div>
-                    <!-- End Contact List -->
-
-                    <!-- Contact List -->
-                    <div class="col-sm-4 sm-margin-b-50">
-                        <div class="wow fadeInLeft" data-wow-duration=".3" data-wow-delay=".3s">
-                            <h3><a href="#">Financeiro</a></h3>
-                            <p>Lorem ipsum dolor sit amet consectetur adipiscing elit sed tempor incdidunt ut laboret dolor magna ut consequat siad esqudiat dolor</p>
-                            <ul class="list-unstyled contact-list">
-                                <li><i class="margin-r-10 color-base icon-call-out"></i> 51 3332 2222</li>
-                                <li><i class="margin-r-10 color-base icon-envelope"></i> financeiro@dsmuller.com.br</li>
-                            </ul>
-                        </div>
-                    </div>
-                    <!-- End Contact List -->
                 </div>
                 <!--// end row -->
-            </div>
-        </div>
-        <!-- End Contact List -->
 
+                <div class="row row-space-1 margin-b-2">
+                    <div class="col-sm-6 sm-margin-b-2">
+                        <div class="wow fadeInLeft" data-wow-duration=".3" data-wow-delay=".3s">
+                            <div class="service" data-height="height">
+                                <h3>Milk Run</h3>
+                                <p class="margin-b-5"></p>
+                                <a href="contato.php" class="content-wrapper-link"></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6">
+                        <div class="wow fadeInLeft" data-wow-duration=".3" data-wow-delay=".2s">
+                            <div class="service" data-height="height">
+                                <h3>Just-in- time</h3>
+                                <p class="margin-b-5"></p>
+                                <a href="contato.php" class="content-wrapper-link"></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--// end row -->
 
+                <div class="row row-space-1 margin-b-2">
+                    <div class="col-sm-6 sm-margin-b-2">
+                        <div class="wow fadeInLeft" data-wow-duration=".3" data-wow-delay=".3s">
+                            <div class="service" data-height="height">
+                                <h3>Coletas</h3>
+                                <p class="margin-b-5">Coletas programadas e solicitadas</p>
+                                <a href="contato.php" class="content-wrapper-link"></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6">
+                        <div class="wow fadeInLeft" data-wow-duration=".3" data-wow-delay=".2s">
+                            <div class="service" data-height="height">
+                                <h3>Viabilidade</h3>
+                                <p class="margin-b-5">Viabilidade de equipe dedicada a cada necessidade do cliente.</p>
+                                <a href="contato.php" class="content-wrapper-link"></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--// end row -->
 
+                <div class="row row-space-1 margin-b-2">
+                    <div class="col-sm-6 sm-margin-b-2">
+                        <div class="wow fadeInLeft" data-wow-duration=".3" data-wow-delay=".3s">
+                            <div class="service" data-height="height">
+                                <h3>Agendamento</h3>
+                                <p class="margin-b-5">Agendamento da entrega</p>
+                                <a href="contato.php" class="content-wrapper-link"></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6">
+                        <div class="wow fadeInLeft" data-wow-duration=".3" data-wow-delay=".2s">
+                            <div class="service" data-height="height">
+                                <h3>Rastreabilidade</h3>
+                                <p class="margin-b-5">Rastreabilidade da mercadoria</p>
+                                <a href="contato.php" class="content-wrapper-link"></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--// end row -->
 
-
-
-
-        <!-- Google Map -->
-        <div id="map" class="map height-400"></div>
+                <div class="row row-space-1">
+                            </div>
+                        </div>
+                    </div>
+        <!-- End Service -->
 
 
 
@@ -175,16 +215,16 @@
                             <ul class="list-unstyled footer-list">
                                 <li class="footer-list-item">DS Müller Logística.<li>
 
-                                <li class="ft">Contato</li>
-                                <li><p class="margin-b-0">Alegemiro 51 9-999-9999</p></li>
-                                <li><p class="margin-b-0">Jéssica 51 9-999-9999</p></li>
+                                  <li class="ft">Contato</li>
+                                  <li><p class="margin-b-0">Algemiro 51 9 9913-0011</a></p></li>
+                                  <li><p class="margin-b-0">Jéssica 51 9 9991-2797</p></li>
 
-                                <!--
-                                <li class="footer-list-item"></li>
-                                <li class="ft">Endereço</li>
-                                <li><p class="margin-b-0">Rua Alcides Lima, 305. CEP: 94110-140</p></li>
-                                <li><p class="margin-b-0">Parque Ipiranga - Gravataí, RS - Brasil</p></li>
-                               -->
+
+                                  <li class="footer-list-item"></li>
+                                  <li class="ft">Endereço</li>
+                                  <li><p class="margin-b-0">Rua Alcides Lima, 305. CEP: 94110-140</p></li>
+                                  <li><p class="margin-b-0">Parque Ipiranga - Gravataí, RS - Brasil</p></li>
+
                             </ul>
                             <!-- End List -->
                         </div>
@@ -203,7 +243,6 @@
                 </div>
             </div>
             <!-- End Links -->
-
 
             <!-- Copyright -->
             <div class="content container">
@@ -224,8 +263,6 @@
         <!-- Back To Top -->
         <a href="javascript:void(0);" class="js-back-to-top back-to-top">Topo</a>
 
-        <a href="javascript:void(0);" class="js-back-to-top back-to-top">Top</a>
-
         <!-- JAVASCRIPTS(Load javascripts at bottom, this will reduce page load time) -->
         <!-- CORE PLUGINS -->
         <script src="vendor/jquery.min.js" type="text/javascript"></script>
@@ -237,14 +274,15 @@
         <script src="vendor/jquery.back-to-top.js" type="text/javascript"></script>
         <script src="vendor/jquery.smooth-scroll.js" type="text/javascript"></script>
         <script src="vendor/jquery.wow.min.js" type="text/javascript"></script>
-        <script src="vendor/jquery.parallax.min.js" type="text/javascript"></script>
+        <script src="vendor/swiper/js/swiper.jquery.min.js" type="text/javascript"></script>
+        <script src="vendor/masonry/jquery.masonry.pkgd.min.js" type="text/javascript"></script>
+        <script src="vendor/masonry/imagesloaded.pkgd.min.js" type="text/javascript"></script>
 
         <!-- PAGE LEVEL SCRIPTS -->
         <script src="js/layout.min.js" type="text/javascript"></script>
         <script src="js/components/wow.min.js" type="text/javascript"></script>
-        <script src="js/components/gmap.js" type="text/javascript"></script>
-        <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBsXUGTFS09pLVdsYEE9YrO2y4IAncAO2U&amp;callback=initMap" async defer></script>
-
+        <script src="js/components/swiper.min.js" type="text/javascript"></script>
+        <script src="js/components/masonry.min.js" type="text/javascript"></script>
 
     </body>
     <!-- END BODY -->

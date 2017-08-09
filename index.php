@@ -62,9 +62,9 @@
                     <div class="collapse navbar-collapse nav-collapse">
                         <div class="menu-container">
                             <ul class="navbar-nav navbar-nav-right">
-                                <li class="nav-item"><a class="nav-item-child" href="index.html"><i class="fa fa-home mgnv"></i> Inicio</a></li>
-                                <li class="nav-item"><a class="nav-item-child" href="servicos.html"><i class="fa fa-cubes mgnv"></i> Serviços</a></li>
-                                <li class="nav-item"><a class="nav-item-child" href="contato.html"><i class="fa fa-envelope-o mgnv"></i> Contato</a></li>
+                                <li class="nav-item"><a class="nav-item-child" href="index.php"><i class="fa fa-home mgnv"></i> Inicio</a></li>
+                                <li class="nav-item"><a class="nav-item-child" href="servicos.php"><i class="fa fa-cubes mgnv"></i> Serviços</a></li>
+                                <li class="nav-item"><a class="nav-item-child" href="contato.php"><i class="fa fa-envelope-o mgnv"></i> Contato</a></li>
                                 <li class="nav-item"><a class="nav-item-child" href="cel:51999130011"><i class="fa fa-phone mgnv"></i> (51)9 9913-0011</a></li>
                                 <li class="nav-item"><a class="nav-item-child" href="cel:51999912797"><i class="fa fa-phone mgnv"></i> (51)9 9991-2797</a></li></ul>
                         </div>
@@ -99,9 +99,9 @@
                         <div class="carousel-centered">
                             <div class="margin-b-40">
                                 <h1 class="carousel-title">Transporte</h1>
-                                <p class="carousel-p">Transporte de carga expressa, Carga fracionada e Carga fechada.</p>
+                                <p class="carousel-p">Transporte de carga expressa, carga fracionada e carga fechada.</p>
                             </div>
-                            <a href="#" class="btn-theme btn-theme-sm btn-white-brd bg1 text-uppercase">Pedir coleta</a>
+                            <a href="coleta.php" class="btn-theme btn-theme-sm btn-white-brd bg1 text-uppercase">Pedir coleta</a>
                         </div>
                     </div>
                 </div>
@@ -113,7 +113,7 @@
                                 <h2 class="carousel-title">Armazenamento</h2>
                                 <p class="carousel-p">Possuímos um centro de armazenagem com uma área de 300m2.</p>
                             </div>
-                            <a href="#" class="btn-theme btn-theme-sm btn-white-brd text-uppercase">Cotação</a>
+                            <a href="cotato.php" class="btn-theme btn-theme-sm btn-white-brd text-uppercase">Cotação</a>
                         </div>
                     </div>
                 </div>
@@ -125,7 +125,7 @@
                                 <h2 class="carousel-title">Logística</h2>
                                 <p class="carousel-p">Com comprometimento e organização a DS Müller entrega produtos com o propósito de atender as exigências de cada cliente.</p>
                             </div>
-                            <a href="#" class="btn-theme btn-theme-sm btn-white-brd text-uppercase">Cotação</a>
+                            <a href="contato.php" class="btn-theme btn-theme-sm btn-white-brd text-uppercase">Cotação</a>
                         </div>
                     </div>
                 </div>
@@ -147,7 +147,7 @@
 <h3 class="mg1">PEDIDO DE COLETA</h3>
 <i class="service-icon mi2"><img src="img/coleta.png"></i>
 </div>
-<a href="cotacao.html" class="content-wrapper-link"></a>
+<a href="coleta.php" class="content-wrapper-link"></a>
 </div>
 </div>
 </div>
@@ -159,7 +159,7 @@
 <h3 class="mg2">COTAÇÃO</h3>
 <i class="service-icon mi2"><img src="img/cotacao.png"></i>
 </div>
-<a href="cotacao.html" class="content-wrapper-link"></a>
+<a href="cotacao.php" class="content-wrapper-link"></a>
 </div>
 </div>
 </div>
@@ -206,7 +206,7 @@
                                     <h3>Transporte</h3>
                                     <p class="margin-b-5">Transporte de carga expressa, Carga fracionada e Carga fechada.</p>
                                 </div>
-                                <a href="#" class="content-wrapper-link"></a>
+                                <a href="servicos.php" class="content-wrapper-link"></a>
                             </div>
                         </div>
                     </div>
@@ -221,7 +221,7 @@
                                     <p class="margin-b-5">Com abrangência em todas as regiões do Brasil, a DS Müller Logística torna disponível
 produtos e serviços no local onde são necessários, no momento em que são desejados.</p>
                                 </div>
-                                <a href="#" class="content-wrapper-link"></a>
+                                <a href="servicos.php" class="content-wrapper-link"></a>
                             </div>
                         </div>
                     </div>
@@ -235,7 +235,7 @@ produtos e serviços no local onde são necessários, no momento em que são des
                                     <h3>Tecnologia</h3>
                                     <p class="margin-b-5">Contamos com um painel de controle de embarques, para maior agilidade no acesso da informação.</p>
                                 </div>
-                                <a href="#" class="content-wrapper-link"></a>
+                                <a href="servicos.php" class="content-wrapper-link"></a>
                             </div>
                         </div>
                     </div>
@@ -253,7 +253,7 @@ produtos e serviços no local onde são necessários, no momento em que são des
                                     <h3>Flexibilidade</h3>
                                     <p class="margin-b-5">Prestamos um serviço baseado na necessidade de cada cliente.</p>
                                 </div>
-                                <a href="#" class="content-wrapper-link"></a>
+                                <a href="servicos.php" class="content-wrapper-link"></a>
                             </div>
                         </div>
                     </div>
@@ -267,7 +267,7 @@ produtos e serviços no local onde são necessários, no momento em que são des
                                     <h3>Armazenamento</h3>
                                     <p class="margin-b-5">Possuímos um centro de armazenagem com uma área de 300m2.</p>
                                 </div>
-                                <a href="#" class="content-wrapper-link"></a>
+                                <a href="servicos.php" class="content-wrapper-link"></a>
                             </div>
                         </div>
                     </div>
@@ -281,7 +281,7 @@ produtos e serviços no local onde são necessários, no momento em que são des
                                     <h3>Logística</h3>
                                     <p class="margin-b-5">Com comprometimento e organização a DS Müller entrega produtos com o propósito de atender as exigências de cada cliente.</p>
                                 </div>
-                                <a href="#" class="content-wrapper-link"></a>
+                                <a href="servicos.php" class="content-wrapper-link"></a>
                             </div>
                         </div>
                     </div>
@@ -294,6 +294,7 @@ produtos e serviços no local onde são necessários, no momento em que são des
         <!-- Clients -->
         <div class="">
             <div class="content-lg container">
+              <h3>Alguns Clientes</h3>
                 <!-- Swiper Clients -->
                 <div class="swiper-slider swiper-clients">
                     <!-- Swiper Wrapper -->
@@ -341,10 +342,8 @@ produtos e serviços no local onde são necessários, no momento em que são des
                                 <li class="footer-list-item">DS Müller Logística.<li>
 
                                 <li class="ft">Contato</li>
-                                <li><p class="margin-b-0">Tim 51 9-999-9999</p></li>
-                                <li><p class="margin-b-0">Vivo 51 9-999-9999</p></li>
-                                <li><p class="margin-b-0">Comercial 51 9-999-9999</p></li>
-                                <li><p class="margin-b-0">RH 51 9-999-9999</p></li>
+                                <li><p class="margin-b-0">Algemiro 51 9 9913-0011</a></p></li>
+                                <li><p class="margin-b-0">Jéssica 51 9 9991-2797</p></li>
 
 
                                 <li class="footer-list-item"></li>
@@ -356,12 +355,14 @@ produtos e serviços no local onde são necessários, no momento em que são des
                             <!-- End List -->
                         </div>
                         <div class="col-sm-5 sm-margin-b-30">
-                            <h2 class="color-white">Deixe sua menssagem.</h2>
-                            <input type="text" class="form-control footer-input margin-b-20" placeholder="Nome" required>
-                            <input type="email" class="form-control footer-input margin-b-20" placeholder="Email" required>
-                            <input type="text" class="form-control footer-input margin-b-20" placeholder="Telefone" required>
-                            <textarea class="form-control footer-input margin-b-30" rows="6" placeholder="Menssagem" required></textarea>
+                            <form method="post" action="mensagem.php">
+                            <h2 class="color-white">Contato.</h2>
+                            <input type="text" class="form-control footer-input margin-b-20" placeholder="Nome" required id="nome">
+                            <input type="email" class="form-control footer-input margin-b-20" placeholder="Email" required id="email">
+                            <input type="text" class="form-control footer-input margin-b-20" placeholder="Telefone" required id="telefone">
+                            <textarea class="form-control footer-input margin-b-30" rows="6" placeholder="Menssagem" required id="mensagem"></textarea>
                             <button type="submit" class="btn-theme btn-theme-sm btn-base-bg text-uppercase">Enviar</button>
+                          </form>
                         </div>
                     </div>
                     <!--// end row -->
