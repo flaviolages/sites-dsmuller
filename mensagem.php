@@ -8,19 +8,36 @@
 <?php
 ini_set("error_reporting", E_ALL);
 
+<<<<<<< HEAD
 $inome = $_POST["nome"];
 $itelefone= $_POST["telefone"];
 $iemail = $_POST["email"];
 $imensagem = $_POST["mensagem"];
+=======
+$n = $_POST["nome"];
+$t = $_POST["telefone"];
+$e = $_POST["email"];
+$me = $_POST["mensagem"];
+>>>>>>> 38d9d829685ebaed9eed4c2325b7d916dd8a8be2
 $assunto="Contato pelo Site";
 
 
 $msg = "
+<<<<<<< HEAD
 <font color=#0383CE size=4 face=arial><b>Contato via site</b></font><br><br>
 <font color=#0383CE size=2 face=arial><b>Nome: </b></font><font size=3> <font color=#333333 size=4 face=verdana>$inome</font><br>
 <font color=#0383CE size=2 face=arial><b>Email: </b></font> <font color=#333333 size=4 face=verdana>$iemail</font><br>
 <font color=#0383CE size=2 face=arial><b>Telefone:</b></font> <font color=#333333 size=4 face=verdana>$itelefone</font></font><br>
 <font color=#0383CE size=2 face=arial><b>Mensagem:</b></font> <font color=#333333 size=4 face=verdana>$imensagem</font><br>
+=======
+<font color=#6c8827 size=4 face=verdana><b>::: Mensagem enviada do site - Contato :::  </b></font><br><br>
+<font color=#6c8827 size=4 face=verdana><b>Nome: </b></font><font size=3> <font color=#333333 size=4 face=verdana>$n</font><br>
+<font color=#6c8827 size=4 face=verdana><b>Email: </b></font> <font color=#333333 size=4 face=verdana>$e</font><br>
+<font color=#6c8827 size=4 face=verdana><b>Telefone:</b></font> <font color=#333333 size=4 face=verdana>$t</font></font><br>
+<font color=#6c8827 size=4 face=verdana><b>Mensagem:</b></font> <font color=#333333 size=4 face=verdana>$m</font><br>
+
+
+>>>>>>> 38d9d829685ebaed9eed4c2325b7d916dd8a8be2
 <br><br>";
 
 
@@ -46,6 +63,7 @@ $envio = mail($x, $assunto, $msg, $headers);
 
 
 
+<<<<<<< HEAD
 if($envio){
 
 
@@ -79,6 +97,13 @@ function startCountdown(){
 }
 </SCRIPT>
 <FONT face=verdana color=#1e90ff size=2><B>
+=======
+if($envio)
+ echo $n;
+ echo $t;
+ echo $e;
+ echo "<font color=#406980 size=4 face=verdana>
+>>>>>>> 38d9d829685ebaed9eed4c2325b7d916dd8a8be2
 
 <DIV id=numberCountdown align=center></DIV></FONT>
 
