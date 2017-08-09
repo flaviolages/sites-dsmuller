@@ -346,10 +346,14 @@ produtos e serviços no local onde são necessários, no momento em que são des
                                 <li><p class="margin-b-0">Jéssica 51 9 9991-2797</p></li>
 
 
+                                <!--
                                 <li class="footer-list-item"></li>
                                 <li class="ft">Endereço</li>
                                 <li><p class="margin-b-0">Rua Alcides Lima, 305. CEP: 94110-140</p></li>
                                 <li><p class="margin-b-0">Parque Ipiranga - Gravataí, RS - Brasil</p></li>
+                                -->
+
+
 
                             </ul>
                             <!-- End List -->

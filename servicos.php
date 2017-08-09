@@ -219,12 +219,12 @@
                                   <li><p class="margin-b-0">Algemiro 51 9 9913-0011</a></p></li>
                                   <li><p class="margin-b-0">Jéssica 51 9 9991-2797</p></li>
 
-
+                                  <!--
                                   <li class="footer-list-item"></li>
                                   <li class="ft">Endereço</li>
                                   <li><p class="margin-b-0">Rua Alcides Lima, 305. CEP: 94110-140</p></li>
                                   <li><p class="margin-b-0">Parque Ipiranga - Gravataí, RS - Brasil</p></li>
-
+                                  -->
                             </ul>
                             <!-- End List -->
                         </div>

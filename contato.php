@@ -108,25 +108,12 @@
             <div class="content-lg container">
                 <div class="row">
                     <!-- Contact List -->
-                    <div class="col-sm-4 sm-margin-b-50">
+                    <div class="col-sm-6 sm-margin-b-50">
                         <div class="wow fadeInLeft" data-wow-duration=".3" data-wow-delay=".3s">
-                            <h3><a href="#">Comercial</a></h3>
-                            <p>Lorem ipsum dolor sit amet consectetur adipiscing elit sed tempor incdidunt ut laboret dolor magna ut consequat siad esqudiat dolor</p>
+                            <h3><a href="">Comercial</a></h3>
+                            <p>Jéssica Anger</p>
                             <ul class="list-unstyled contact-list">
-                                <li><i class="margin-r-10 color-base icon-call-out"></i>51 3331-3323 </li>
-                                <li><i class="margin-r-10 color-base icon-envelope"></i> comercial@dsmuller.com.br</li>
-                            </ul>
-                        </div>
-                    </div>
-                    <!-- End Contact List -->
-
-                    <!-- Contact List -->
-                    <div class="col-sm-4 sm-margin-b-50">
-                        <div class="wow fadeInLeft" data-wow-duration=".3" data-wow-delay=".3s">
-                            <h3><a href="#">Logistica</a></h3>
-                            <p>Lorem ipsum dolor sit amet consectetur adipiscing elit sed tempor incdidunt ut laboret dolor magna ut consequat siad esqudiat dolor</p>
-                            <ul class="list-unstyled contact-list">
-                                <li><i class="margin-r-10 color-base icon-call-out"></i> 51 333-3333</li>
+                                <li><i class="margin-r-10 color-base icon-call-out"></i> 51 9 9991-2797 </li>
                                 <li><i class="margin-r-10 color-base icon-envelope"></i> jessica@dsmuller.com.br</li>
                             </ul>
                         </div>
@@ -134,6 +121,19 @@
                     <!-- End Contact List -->
 
                     <!-- Contact List -->
+                    <div class="col-sm-6 sm-margin-b-50">
+                        <div class="wow fadeInLeft" data-wow-duration=".3" data-wow-delay=".3s">
+                            <h3><a href="">Logistica</a></h3>
+                            <p>Algemiro Vargas</p>
+                            <ul class="list-unstyled contact-list">
+                                <li><i class="margin-r-10 color-base icon-call-out"></i> 51 9 9913-0011</li>
+                                <li><i class="margin-r-10 color-base icon-envelope"></i> algemiro@dsmuller.com.br</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <!-- End Contact List -->
+
+                    <!--
                     <div class="col-sm-4 sm-margin-b-50">
                         <div class="wow fadeInLeft" data-wow-duration=".3" data-wow-delay=".3s">
                             <h3><a href="#">Financeiro</a></h3>
@@ -144,7 +144,7 @@
                             </ul>
                         </div>
                     </div>
-                    <!-- End Contact List -->
+                     -->
                 </div>
                 <!--// end row -->
             </div>
@@ -191,10 +191,10 @@
                         <div class="col-sm-5 sm-margin-b-30">
                             <form method="post" action="mensagem.php">
                             <h2 class="color-white">Contato.</h2>
-                            <input type="text" class="form-control footer-input margin-b-20" placeholder="Nome" required id="nome">
-                            <input type="email" class="form-control footer-input margin-b-20" placeholder="Email" required id="email">
-                            <input type="text" class="form-control footer-input margin-b-20" placeholder="Telefone" required id="telefone">
-                            <textarea class="form-control footer-input margin-b-30" rows="6" placeholder="Menssagem" required id="mensagem"></textarea>
+                            <input type="text" class="form-control footer-input margin-b-20" placeholder="Nome" required name="nome">
+                            <input type="email" class="form-control footer-input margin-b-20" placeholder="Email" required name="email">
+                            <input type="text" class="form-control footer-input margin-b-20" placeholder="Telefone" required name="telefone">
+                            <textarea class="form-control footer-input margin-b-30" rows="6" placeholder="Menssagem" required name="mensagem"></textarea>
                             <button type="submit" class="btn-theme btn-theme-sm btn-base-bg text-uppercase">Enviar</button>
                           </form>
                         </div>

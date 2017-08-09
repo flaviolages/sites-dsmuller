@@ -104,60 +104,65 @@
                       <div class="form-group">
                         <span class="pedido-h2">Origem</span>
                         <div class="col-xs-12 col-sm-6">
-                        <input type="text" name="form-first-name" placeholder="CNPJ" class="brd form-first-name form-control" id="form-first-name">
+                        <form method="post" action="mensagem-cotacao.php">
+
+                        <input type="text" placeholder="CNPJ" class="brd form-first-name form-control" name="origemcnpj">
                         </div>
-                        <div class="col-xs-12 col-sm-6 lg3">
-                        <input type="text" name="form-first-name" placeholder="Razão Social" class="brd  form-first-name form-control" id="form-first-name">
+                        <div class="col-xs-12 col-sm-6">
+                        <input type="text" placeholder="Razão Social" class="brd  form-first-name form-control" name="origemrazao">
                         </div>
 
                       </div>
 
                       <div class="form-group">
                         <span class="pedido-h2">Destinatário</span>
-                        <div class="col-xs-12 col-sm-6 lg3">
-                        <input type="text" name="form-first-name" placeholder="CNPJ" class="brd  form-first-name form-control" id="form-first-name">
+                        <div class="col-xs-12 col-sm-6">
+                        <input type="text" placeholder="CNPJ" class="brd  form-first-name form-control" name="destinocnpj">
                         </div>
-                        <div class="col-xs-12 col-sm-6 lg3">
-                        <input type="text" name="form-first-name" placeholder="Razão Social" class=" brd form-first-name form-control" id="form-first-name">
+                        <div class="col-xs-12 col-sm-6">
+                        <input type="text" placeholder="Razão Social" class=" brd form-first-name form-control" name="destinorazao">
                         </div>
                       </div>
 
                       <div class="form-group">
                         <span class="pedido-h2">Dados</span>
-                        <div class="col-xs-4 col-sm-4 lg3">
-                        <input type="number" name="form-first-name" placeholder="Volume" class="brd  form-first-name form-control" id="form-first-name">
+                        <div class="col-xs-4 col-sm-4">
+                        <input type="number" placeholder="Volume" class="brd  form-first-name form-control" name="volume">
                         </div>
-                        <div class="col-xs-4 col-sm-4 lg3">
-                        <input type="text" name="form-first-name" placeholder="Peso" class=" brd form-first-name form-control" id="form-first-name">
+                        <div class="col-xs-4 col-sm-4">
+                        <input type="text" placeholder="Peso" class=" brd form-first-name form-control" name="peso">
                         </div>
-                        <div class="col-xs-4 col-sm-4 lg3">
-                        <input type="number" name="form-first-name" placeholder="Valor da Nota" class=" brd form-first-name form-control" id="form-first-name">
+                        <div class="col-xs-4 col-sm-4">
+                        <input type="number" placeholder="Valor da Nota" class=" brd form-first-name form-control" name="valornota">
                         </div>
                       </div>
                       <div class="form-group">
                         <span class="pedido-h2">Dimensões</span>
-                        <div class="col-xs-4 col-sm-4 lg3">
-                        <input type="number" name="form-first-name" placeholder="Altura" class="brd  form-first-name form-control" id="form-first-name">
+                        <div class="col-xs-4 col-sm-4">
+                        <input type="text" placeholder="Altura" class="brd  form-first-name form-control" name="altura">
                         </div>
-                        <div class="col-xs-4 col-sm-4 lg3">
-                        <input type="number" name="form-first-name" placeholder="Largura" class=" brd form-first-name form-control" id="form-first-name">
+                        <div class="col-xs-4 col-sm-4">
+                        <input type="text" placeholder="Largura" class=" brd form-first-name form-control" name="largura">
                         </div>
-                        <div class="col-xs-4 col-sm-4 lg3">
-                        <input type="number" name="form-first-name" placeholder="Comprimento" class=" brd form-first-name form-control" id="form-first-name">
+                        <div class="col-xs-4 col-sm-4">
+                        <input type="text" placeholder="Comprimento" class=" brd form-first-name form-control" name="comprimento">
                         </div>
                       </div>
                       <div class="form-group">
                         <span class="pedido-h2">Contato</span>
-                        <div class="col-xs-12 col-sm-6 lg3">
-                        <input type="text" name="form-first-name" placeholder="Nome" class="brd  form-first-name form-control" id="form-first-name">
+                        <div class="col-xs-4 col-sm-4">
+                        <input type="text" placeholder="Nome" class="brd  form-first-name form-control" name="nome">
                         </div>
-                        <div class="col-xs-12 col-sm-6 lg3">
-                        <input type="text" name="form-first-name" placeholder="Telefone" class=" brd form-first-name form-control" id="form-first-name">
+                        <div class="col-xs-4 col-sm-4">
+                        <input type="text" placeholder="Telefone" class=" brd form-first-name form-control" name="telefone">
+                        </div>
+                        <div class="col-xs-4 col-sm-4">
+                        <input type="e-mail" placeholder="E-mail" class=" brd form-first-name form-control" name="email">
                         </div>
                       </div>
+
                       <button type="submit" class="bt btn-theme btn-theme-sm btn-base-bg text-uppercase">Cotar</button>
-
-
+                      </form>
 
 
                     </div>
@@ -200,14 +205,14 @@
                             <!-- End List -->
                         </div>
                         <div class="col-sm-5 sm-margin-b-30">
-                            <form method="post" action="mensagem.php">
+                             <form method="post" action="mensagem.php">
                             <h2 class="color-white">Contato.</h2>
                             <input type="text" class="form-control footer-input margin-b-20" placeholder="Nome" required id="nome">
                             <input type="email" class="form-control footer-input margin-b-20" placeholder="Email" required id="email">
                             <input type="text" class="form-control footer-input margin-b-20" placeholder="Telefone" required id="telefone">
                             <textarea class="form-control footer-input margin-b-30" rows="6" placeholder="Menssagem" required id="mensagem"></textarea>
                             <button type="submit" class="btn-theme btn-theme-sm btn-base-bg text-uppercase">Enviar</button>
-                          </form>
+                          </form> 
                         </div>
                     </div>
                     <!--// end row -->
