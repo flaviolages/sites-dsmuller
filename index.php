@@ -50,7 +50,7 @@
 
                         <!-- Logo -->
                         <div class="logo">
-                            <a class="logo-wrap" href="index.html">
+                            <a class="logo-wrap" href="index.php">
                                 <img class="logo-img logo-img-main" src="img/logo-ds-muller.jpg" alt="Asentus Logo">
                                 <img class="logo-img logo-img-active" src="img/logo-ds-muller.jpg" alt="Asentus Logo">
                             </a>
@@ -65,8 +65,8 @@
                                 <li class="nav-item"><a class="nav-item-child" href="index.php"><i class="fa fa-home mgnv"></i> Inicio</a></li>
                                 <li class="nav-item"><a class="nav-item-child" href="servicos.php"><i class="fa fa-cubes mgnv"></i> Serviços</a></li>
                                 <li class="nav-item"><a class="nav-item-child" href="contato.php"><i class="fa fa-envelope-o mgnv"></i> Contato</a></li>
-                                <li class="nav-item"><a class="nav-item-child" href="cel:51999130011"><i class="fa fa-phone mgnv"></i> (51)9 9913-0011</a></li>
-                                <li class="nav-item"><a class="nav-item-child" href="cel:51999912797"><i class="fa fa-phone mgnv"></i> (51)9 9991-2797</a></li></ul>
+                                <li class="nav-item"><a class="nav-item-child" href="tel:51999130011"><i class="fa fa-phone mgnv"></i> (51)9 9913-0011</a></li>
+                                <li class="nav-item"><a class="nav-item-child" href="tel:51999912797"><i class="fa fa-phone mgnv"></i> (51)9 9991-2797</a></li></ul>
                         </div>
                     </div>
                     <!-- End Navbar Collapse -->
@@ -299,12 +299,13 @@ produtos e serviços no local onde são necessários, no momento em que são des
                 <div class="swiper-slider swiper-clients">
                     <!-- Swiper Wrapper -->
                     <div class="swiper-wrapper">
-                        <div class="swiper-slide">
+                      <!--  <div class="swiper-slide">
                             <img class="swiper-clients-img" src="img/clients/01.jpg" alt="Clients Logo">
                         </div>
                         <div class="swiper-slide">
                             <img class="swiper-clients-img" src="img/clients/02.jpg" alt="Clients Logo">
                         </div>
+                      -->
                         <div class="swiper-slide">
                             <img class="swiper-clients-img" src="img/clients/03.png" alt="Clients Logo">
                         </div>
@@ -345,13 +346,11 @@ produtos e serviços no local onde são necessários, no momento em que são des
                                 <li><p class="margin-b-0">Algemiro 51 9 9913-0011</a></p></li>
                                 <li><p class="margin-b-0">Jéssica 51 9 9991-2797</p></li>
 
-
-                                <!--
                                 <li class="footer-list-item"></li>
                                 <li class="ft">Endereço</li>
-                                <li><p class="margin-b-0">Rua Alcides Lima, 305. CEP: 94110-140</p></li>
-                                <li><p class="margin-b-0">Parque Ipiranga - Gravataí, RS - Brasil</p></li>
-                                -->
+                                <li><p class="margin-b-0">​Estrada dos Tavares, n 220</p></li>
+                                <li><p class="margin-b-0">Bairro Costa do Ipiranga - Gravataí RS</p></li>
+                               
 
 
 
@@ -361,10 +360,10 @@ produtos e serviços no local onde são necessários, no momento em que são des
                         <div class="col-sm-5 sm-margin-b-30">
                             <form method="post" action="mensagem.php">
                             <h2 class="color-white">Contato.</h2>
-                            <input type="text" class="form-control footer-input margin-b-20" placeholder="Nome" required id="nome">
-                            <input type="email" class="form-control footer-input margin-b-20" placeholder="Email" required id="email">
-                            <input type="text" class="form-control footer-input margin-b-20" placeholder="Telefone" required id="telefone">
-                            <textarea class="form-control footer-input margin-b-30" rows="6" placeholder="Menssagem" required id="mensagem"></textarea>
+                            <input type="text" class="form-control footer-input margin-b-20" placeholder="Nome" required name="nome">
+                            <input type="email" class="form-control footer-input margin-b-20" placeholder="Email" required name="email">
+                            <input type="text" class="form-control footer-input margin-b-20" placeholder="Telefone" required name="telefone">
+                            <textarea class="form-control footer-input margin-b-30" rows="6" placeholder="Menssagem" required name="mensagem"></textarea>
                             <button type="submit" class="btn-theme btn-theme-sm btn-base-bg text-uppercase">Enviar</button>
                           </form>
                         </div>

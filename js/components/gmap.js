@@ -30,9 +30,9 @@ window.initMap = function() {
 
   var customMapTypeId = 'custom_style';
 
-  var brooklyn = {lat: -29.922214, lng: -50.9780985};
+  var brooklyn = {lat: -29.8467623, lng: -51.1847657};
   var map = new google.maps.Map(document.getElementById('map'), {
-    zoom: 6,
+    zoom: 10,
     scrollwheel: false,
     streetViewControl: false,
     mapTypeControl: false,
@@ -47,7 +47,7 @@ window.initMap = function() {
     '</div>'+
     '<h1 id="firstHeading" class="firstHeading">DS Müller</h1>'+
     '<div id="bodyContent">'+
-    '<p>, <br> gravatai, Rio grande do sul <br> brasil</p>'+
+    '<p>​Estrada dos Tavares, n 220, <br>Bairro Costa do Ipiranga - Gravataí RS</p>'+
     '</div>'+
     '</div>';
 
@@ -60,7 +60,7 @@ window.initMap = function() {
     map: map,
     clickable: true,
     icon: image,
-    title: 'Brooklyn',
+    title: 'DS Müller',
     position: brooklyn
   });
 

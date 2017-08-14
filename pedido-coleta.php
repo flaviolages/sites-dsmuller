@@ -26,8 +26,8 @@ $iemail = $_POST["email"];
 
 $assunto="Pedido de Coleta";
 
-echo $msg = "
-<font color=#0383CE size=4 face=arial><b>Cotação pelo site</b></font><br><br>
+$msg = "
+<font color=#0383CE size=4 face=arial><b>Pedido de coleta</b></font><br><br>
 
 <font color=#999 size=3 face=arial><b>Origem</b></font><br>
 <font color=#0383CE size=2 face=arial><b>CNPJ: </b></font><font size=3> <font color=#333333 size=4 face=arial>$iorigemcnpj</font><br>
@@ -57,16 +57,12 @@ echo $msg = "
 
 
 
-$x = "cloudflaviolages@gmail.com";
-
-
-
-
+$x = "jessica@dsmuller.com.br";
 $headers = "MIME-Version: 1.1\r\n";
 $headers .= "Content-type: text/html; charset=iso-8859-1\r\n";
-$headers .= "From: cloudflaviolages@gmail.com\r\n"; // remetente
-$headers .= "Return-Path: cloudflaviolages@gmail.com\r\n"; // return-path
-$headers .= "Reply-To: cloudflaviolages@gmail.com\r\n"; // return-path
+$headers .= "From: dsmuller@dsmuller.com.br\r\n"; // remetente
+$headers .= "Return-Path: dsmuller@dsmuller.com.br\r\n"; // return-path
+$headers .= "Reply-To: dsmuller@dsmuller.com.br\r\n"; // return-path
 
 
 
@@ -90,7 +86,7 @@ echo "
 <font color=#0383CE size=4 face=arial>$inome</font><br><br>
 </div>
 <div align=center>
-<font color=#0383CE size=4 face=arial>Sua mensagem foi enviada com sucesso! Logo entraremos em contato.</font><br><br>
+<font color=#0383CE size=4 face=arial>Em breve estaremos confirmando a coleta!</font><br><br>
 </div>
 <BODY onload=startCountdown()>
 <SCRIPT language=JavaScript>

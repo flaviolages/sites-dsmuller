@@ -50,7 +50,7 @@
 
                         <!-- Logo -->
                         <div class="logo">
-                            <a class="logo-wrap" href="index.html">
+                            <a class="logo-wrap" href="index.php">
                                 <img class="logo-img logo-img-main" src="img/logo-ds-muller.jpg" alt="Asentus Logo">
                                 <img class="logo-img logo-img-active" src="img/logo-ds-muller.jpg" alt="Asentus Logo">
                             </a>
@@ -65,8 +65,8 @@
                                 <li class="nav-item"><a class="nav-item-child" href="index.php"><i class="fa fa-home mgnv"></i> Inicio</a></li>
                                 <li class="nav-item"><a class="nav-item-child at" href="servicos.php"><i class="fa fa-cubes mgnv"></i> Serviços</a></li>
                                 <li class="nav-item"><a class="nav-item-child" href="contato.php"><i class="fa fa-envelope-o mgnv"></i> Contato</a></li>
-                                <li class="nav-item"><a class="nav-item-child" href="cel:51999130011"><i class="fa fa-phone mgnv"></i> (51)9 9913-0011</a></li>
-                                <li class="nav-item"><a class="nav-item-child" href="cel:51999912797"><i class="fa fa-phone mgnv"></i> (51)9 9991-2797</a></li>
+                                <li class="nav-item"><a class="nav-item-child" href="tel:51999130011"><i class="fa fa-phone mgnv"></i> (51)9 9913-0011</a></li>
+                                <li class="nav-item"><a class="nav-item-child" href="tel:51999912797"><i class="fa fa-phone mgnv"></i> (51)9 9991-2797</a></li>
                             </ul>
                         </div>
                     </div>
@@ -179,12 +179,11 @@
                                 <li><p class="margin-b-0">Alegemiro 51 9-999-9999</p></li>
                                 <li><p class="margin-b-0">Jéssica 51 9-999-9999</p></li>
 
-                                <!--
                                 <li class="footer-list-item"></li>
                                 <li class="ft">Endereço</li>
-                                <li><p class="margin-b-0">Rua Alcides Lima, 305. CEP: 94110-140</p></li>
-                                <li><p class="margin-b-0">Parque Ipiranga - Gravataí, RS - Brasil</p></li>
-                               -->
+                                <li><p class="margin-b-0">​Estrada dos Tavares, n 220</p></li>
+                                <li><p class="margin-b-0">Bairro Costa do Ipiranga - Gravataí RS</p></li>
+                               
                             </ul>
                             <!-- End List -->
                         </div>
